@@ -1,0 +1,61 @@
+.about {
+   height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(183, 228, 243);
+  }
+  
+.aboutme {
+  text-align: center;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.aboutme h1 {
+  position: relative;
+}
+
+.aboutme h1:before,
+.aboutme h1:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  background-color: #000;
+}
+
+
+
+.aboutme h1:before {
+  left: 0;
+}
+.aboutme h1:after{
+  right: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+ 
+  margin: 0 auto;
+}
+
+.left {
+  width: 70%;
+  padding-right: 20px;
+}
+
+.right {
+  width: 30%;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

@@ -1,0 +1,40 @@
+.Experience {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(183, 228, 243);
+    margin-bottom: 50px;
+  }
+  
+  
+  .Experience .left {
+    width: 30%;
+    padding-right: 60px;
+    text-align: right;
+  }
+  .Experience .left p{
+      color: rgb(91, 89, 89);
+  }
+  .hr-left-experience {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+  }
+  .Experience .right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: rgb(91, 89, 89);
+  }
+  .rightExperience{
+      padding-left: 10px;
+    margin-top: 50px;
+     
+  }
+  
