@@ -1,9 +1,11 @@
 import './App.css'
 import About from './components/About/About'
-import Contact from './components/Contact/Contact'
+import Button from './components/Contact/Contact'
 import Experience from './components/Experience/Experience'
 import Home from './components/Home/Home'
 import Navber from "./components/Navber/Navber"
+import Slider from './components/Slider/Slider'
+
 
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
          <Home />
          <About />
          <Experience />
-         <Contact />
+         <Button />
+       <Slider />
      </div>
          
   )
