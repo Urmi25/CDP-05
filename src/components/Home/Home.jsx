@@ -8,7 +8,6 @@ const Home  = () => {
      <p>I am full-stack developer</p>
     </div>
  
- 
 </section>
   )
 }

@@ -2,9 +2,12 @@ import './App.css'
 import About from './components/About/About'
 import Button from './components/Contact/Contact'
 import Experience from './components/Experience/Experience'
+import Generate from './components/Generate/Generate'
+
 import Home from './components/Home/Home'
 import Navber from "./components/Navber/Navber"
-import Slider from './components/Slider/Slider'
+
+
 
 
 
@@ -15,10 +18,12 @@ function App() {
        <div className='App' >
          <Navber/>
          <Home />
+         <Generate />
          <About />
          <Experience />
          <Button />
-       <Slider />
+         
+      
      </div>
          
   )
